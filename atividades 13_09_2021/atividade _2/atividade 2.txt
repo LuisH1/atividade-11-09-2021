@@ -1,0 +1,100 @@
+1)      Faça uma função que:
+
+a)       Receba 4 (quatro) números
+
+b)      Calcule o quadrado para cada um
+
+c)       Somem todos e
+
+d)      Mostre o resultado
+
+>>> function quadrado(n1,n2,n3,n4){
+let valor1 = n1 ** 2
+let valor2 = n2 ** 2 
+let valor3 = n3 ** 2
+let valor4 = n4 ** 2
+let total = valor1 + valor2 + valor3 + valor4
+console.log(total)
+}
+quadrado(4,5,8,7)
+
+
+
+2)      Construa uma função para mostrar o pagamento de comissão de vendedores de peças, 
+levando-se em consideração que sua comissão será de 5% do total da venda e que você tem os seguintes dados:
+
+a)       Identificação do vendedor
+
+b)      Código da peça
+
+c)       Preço unitário da peça
+
+d)      Quantidade vendida
+
+>> function pecas(){
+let vendedor="recife"
+let codigo= "roupa"
+let preço=10
+let quantidade=20
+let total = (quantidade*preço)
+ total = total * 0.05  
+ return "comissão "  + total
+}
+console.log(pecas())
+
+
+3)      Sabendo que A=5, B=4 e C=3 e D=6, informe se as expressões abaixo são verdadeiras ou falsas.
+
+a)       (A > C) AND (C <= D)                       
+
+b)      (A + B) > 10 OR (A + B) = (C + D)                 
+
+c)       (A >= C) AND (D >= C)                   
+
+d)      (B > D) AND (A <= C)                     
+
+e)      (D <= A) OR (C >= B)                      
+
+
+ >>> 
+let a = 8
+let b = 10
+let c = 9
+let d = 3
+(a > c ) AND (c <= d) 
+    "false"
+//
+(a +  b ) > 10 OR (a + b) = (c + d)
+    "true" / "false"
+//
+(a >= c) AND (d >= c)
+    "true"/"false"
+//
+(b > d ) AND (a <= c)
+    "true"/ "false"
+// 
+(d <= a) OR (c >= b) 
+    "true"/"false"
+//
+
+
+
+
+4)      Construa uma função que receba um número.
+
+a)       Se positivo mostrar a informação de que ele é positivo.
+
+b)      Se for negativo, mostrar a informação de que ele é negativo.
+
+
+
+>> function numero(index){
+    if (index >= 0){
+    return "positivo"
+    }
+
+    else {
+    return "negativo" 
+    }
+    }
+    console.log(numero(-5))

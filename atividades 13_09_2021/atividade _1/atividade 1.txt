@@ -1,0 +1,66 @@
+1)      Faça uma função que:
+
+a)       Receba código da peça
+
+b)      Receba valor da peça
+
+c)       Receba Quantidade de peças
+
+d)      Calcule o valor total da peça (Quantidade * Valor da peça)
+
+e)      Escreva no console o código da peça e seu valor total.
+
+>>> function pecas(){
+  let quant =15
+  let valor =  50
+  let codigo = "xy"
+  let resultado = quant*valor
+  console.log(codigo,resultado)
+}
+pecas()
+
+
+
+2)      Faça uma função para calcular o estoque médio de uma peça, sendo que ESTOQUEMÉDIO = (QUANTIDADE MÍNIMA + QUANTIDADE MÁXIMA) /2
+
+>> function estoque(min,max){
+  let resultado = (min + max)/2
+  console.log(resultado)
+}
+estoque(50,88)
+
+
+3)      Faça uma função que:
+
+a)       Receba a cotação do dólar
+
+b)      Receba um valor em dólares
+
+c)       Converta esse valor para Real
+
+d)      Mostre o resultado
+
+>> function cotacao(dolar,cotacao){
+  let resultado  = cotacao*dolar
+  console.log ("resultado em reais:",resultado)
+}
+cotacao(100,5.22)
+
+
+4)      Sabendo que A=3, B=7 e C=4, informe se as expressões abaixo são verdadeiras ou falsas.
+
+a)       (A + C) > B           
+
+b)      B >= (A + 2)         
+
+c)       C = (B –A)            
+
+d)      (B + A) <= C         
+
+e)      (C + A) > B         
+
+>> 	a :
+	b:
+	c:
+	d:
+	e:
